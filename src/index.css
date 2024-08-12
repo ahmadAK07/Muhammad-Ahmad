@@ -1,27 +1,3 @@
-/* @font-face {
-  font-family: "Poppins";
-  src: url(./fonts/Poppins/Poppins-Bold),
-   url(./fonts/Poppins/Poppins-ExtraBold),
-   url(./fonts/Poppins/Poppins-Light),
-   url(./fonts/Poppins/Poppins-Medium),
-   url(./fonts/Poppins/Poppins-Regular),
-   url(./fonts/Poppins/Poppins-SemiBold),
-   url(./fonts/Poppins/Poppins-Thin),
-   ;
-} */
-/* @font-face {
-  font-family: "Roboto";
-  src:  */
-  /* url(./fonts/Roboto/Roboto-Bold), */
-   /* url(./fonts/Roboto/Roboto-ExtraBold), */
-   /* url(./fonts/Roboto/Roboto-Light),
-   url(./fonts/Roboto/Roboto-Medium),
-   url(./fonts/Roboto/Roboto-Regular),
-   url(./fonts/Roboto/Roboto-SemiBold),
-   url(./fonts/Roboto/Roboto-Thin), */
-   /* ; */
-/* } */
-
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{padding: 0;margin: 0;box-sizing: border-box;transition: all .2s;scroll-behavior: smooth;}
@@ -57,7 +33,23 @@
   border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border */
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  */
 }
+.backToTop{
+  border: none;
+  outline: none;
+  color: white;
+  background: slateblue;
+  padding: 12px;
+  font-size: 18px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+.backToTop:hover{
+  box-shadow: 0px 0px 10px slateblue;
+}
 ul{list-style: none;}
 a{text-decoration: none;color: inherit;}
 .container{
