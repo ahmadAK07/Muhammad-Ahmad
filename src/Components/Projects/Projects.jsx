@@ -42,7 +42,7 @@ const Projects = () => {
       <h1 className='display-2 roboto-semibold'>Projects</h1>
        <div className=''>
          {projects.map((item, i)=>(
-            <div kkey={i} className='project-card'>
+            <div key={i} className='project-card'>
             <a href={item.url} target='_blank'>
             <img className='project-card__img' src={item.img} alt="" />
             <h6 className='project-card__title display-2 roboto-semibold' style={{color: `${item.color}`}}>{item.name}</h6>
