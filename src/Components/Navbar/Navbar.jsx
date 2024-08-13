@@ -38,16 +38,16 @@ export default function Navbar() {
       </div>
         <ul   className='sub-nav-list bg-galss' style={{height: navHeight}}>
                 <li>
-                  <a href="#skills">Skills</a>
+                  <a onClick={handleToggler} href="#skills">Skills</a>
                 </li>
                 <li>
-                  <a href="#about">About</a>
+                  <a onClick={handleToggler} href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#projects">Projects</a>
+                  <a onClick={handleToggler} href="#projects">Projects</a>
                 </li>
                 <li>
-                  <a href="#contact">Contact</a>
+                  <a onClick={handleToggler} href="#contact">Contact</a>
                 </li>
               </ul>
       </div>
