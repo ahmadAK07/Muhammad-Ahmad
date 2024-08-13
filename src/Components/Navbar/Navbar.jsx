@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { TiThMenuOutline } from "react-icons/ti";
 export default function Navbar() {
-  let [navHeight, setNavHeight] = useState("calc(100vh - 80px)");
+  let [navHeight, setNavHeight] = useState("0px");
   let handleToggler = ()=>{
     if(navHeight == "calc(100vh - 80px)"){
       setNavHeight("0px");
@@ -14,9 +14,11 @@ export default function Navbar() {
           <div className='' style={{position: "fixed", top: 0, left: 0,width: "100%",zIndex:9999}}>
       <div className='bg-galss'>
       <div style={{height: "80px"}}  className="container navbar px-30">
-              <div className="navbar__logo">
+             <a href="#">
+             <div className="navbar__logo">
                    <img  src="/Images/bg-less (2).png" alt="" />
               </div>
+             </a>
               <ul   className='nav-list'>
                 <li>
                   <a href="#skills">Skills</a>

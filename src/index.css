@@ -6,7 +6,7 @@
   color: white;
 }
 ::-webkit-scrollbar {
-  width: 14px;  
+  width: 8px;  
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -139,6 +139,7 @@ a{text-decoration: none;color: inherit;}
   width: 60px;
   border-radius: 50%;
   overflow: hidden;
+  cursor: pointer;
 }
 .navbar__logo img{
   object-fit: cover;
