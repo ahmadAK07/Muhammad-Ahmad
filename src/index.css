@@ -170,6 +170,8 @@ a{text-decoration: none;color: inherit;}
 .nav-toggler{
   font-size: 30px;
   background: transparent;
+  position: relative;
+  z-index: 999;
   margin-left: auto;
   display: none;
 }
@@ -179,10 +181,9 @@ a{text-decoration: none;color: inherit;}
   bottom: 0;
   width: 100vw;
   overflow: hidden;
-
   display: none;
   flex-direction: column;
-  z-index: 9999;
+  z-index: 888;
 }
 .sub-nav-list a{
   display: block;

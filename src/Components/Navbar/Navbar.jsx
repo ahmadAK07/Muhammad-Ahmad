@@ -5,8 +5,10 @@ export default function Navbar() {
   let handleToggler = ()=>{
     if(navHeight == "calc(100vh - 80px)"){
       setNavHeight("0px");
+      document.body.style.overflow = "";
     }else{
       setNavHeight("calc(100vh - 80px)");
+      document.body.style.overflow = "hidden";
     }
   }
   return (
