@@ -35,8 +35,8 @@ const Contact = () => {
               </div>
             </div>
             <div className='contact-right'>
-              <input type="text" className='contact-right__gmail roboto-semibold' />
-              <textarea className='contact-right__text roboto-semibold'></textarea>
+              <input type="text" className='contact-right__gmail roboto-semibold' placeholder='Email'/>
+              <textarea className='contact-right__text roboto-semibold' placeholder='Write a Message...'></textarea>
               <button className='contact-right__btn btn'>SUBMIT</button>
             </div>
        </div>
