@@ -16,7 +16,7 @@ const About = () => {
           // Loop through spans in batches
           for (let i = 0; i < spans.length; i += batchSize) {
             const batch = Array.from(spans).slice(i, i + batchSize);
-            const delay = (i / batchSize) * 100; // 1 second delay after each batch
+            const delay = (i / batchSize) * 200; // 1 second delay after each batch
   
             // Apply the bright-text class to each span in the batch after the calculated delay
             setTimeout(() => {
