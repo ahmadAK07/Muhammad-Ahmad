@@ -40,7 +40,7 @@ const Contact = () => {
 
               </div>
               <div>
-              <a href="mailto:example@gmail.com" target='_blank' className='contact-left__social'>
+              <a href="mailto:muhammadahmadamin512@gmail.com" target='_blank' className='contact-left__social'>
                  <SiGmail />
                  </a>
                  <a href="https://wa.me/923083530865" target='_blank' className='contact-left__social'>
