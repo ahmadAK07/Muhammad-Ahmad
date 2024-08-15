@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className='display-1 roboto-semibold' style={{ textTransform: "uppercase" }}>I'M MUHAMMAD</h1>
           <h1 className='display-1 roboto-semibold' style={{ textTransform: "uppercase" }}>AHMAD</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed expedita est culpa labore nihil!</p>
-          <button className='home-hero__btn btn poppins-normal'>Contact Me</button>
+          <a href="#contact"><button className='home-hero__btn btn poppins-normal'>Contact Me</button></a>
         </div>
       </div>
       <div className='home-hero__avatar'>

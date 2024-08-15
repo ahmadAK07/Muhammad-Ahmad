@@ -28,22 +28,22 @@ const Contact = () => {
             >
               <h3 className='display-2 kanit-semibold contact-left__title' >Social</h3>
               <div>
-                 <a href="#" className='contact-left__social'>
+                 <a href="https://www.facebook.com/profile.php?id=100047829339926&mibextid=ZbWKwL" target='_blank' className='contact-left__social'>
                  <FaFacebookF />
                  </a>
                  <a href="#" className='contact-left__social'>
                  <FaXTwitter />
                  </a>
-                 <a href="#" className='contact-left__social'>
+                 <a href="https://www.instagram.com/muhammadahmadamin512?igsh=MThjNXM5cXdicGhyMw==" target='_blank' className='contact-left__social'>
                  <FaSquareInstagram />
                  </a>
 
               </div>
               <div>
-              <a href="#" className='contact-left__social'>
+              <a href="mailto:example@gmail.com" target='_blank' className='contact-left__social'>
                  <SiGmail />
                  </a>
-                 <a href="#" className='contact-left__social'>
+                 <a href="https://wa.me/923136020383" target='_blank' className='contact-left__social'>
                  <IoLogoWhatsapp />
                  </a>
 
