@@ -66,8 +66,8 @@
     height: 100%;
     border-radius: 50%;
     background: red;
-    background: url("/Images/bg-contact.jpg");
-    background-position: center;
+    background: url("/Images/bg-painting.jpg");
+    background-position: top;
     background-size: cover;
     transform: rotate(2deg);
     inset: 0;
@@ -84,7 +84,7 @@
     background: url("/Images/bg-contact.jpg");
   }
   .image-outer-container:hover .image-inner-container::after, .contact-left:hover::after{
-    clip-path: circle(100px at var(--x) var(--y));
+    clip-path: circle(140px at var(--x) var(--y));
   }
 }
 .main-image {
