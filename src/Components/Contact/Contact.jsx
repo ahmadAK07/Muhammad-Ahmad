@@ -31,7 +31,7 @@ const Contact = () => {
                  <a href="https://www.facebook.com/profile.php?id=100047829339926&mibextid=ZbWKwL" target='_blank' className='contact-left__social'>
                  <FaFacebookF />
                  </a>
-                 <a href="#" className='contact-left__social'>
+                 <a href="https://x.com/AKAhmad46233855?t=t1PNlKJXYTWWB29FTSLT_w&s=09" target="_blank" className='contact-left__social'>
                  <FaXTwitter />
                  </a>
                  <a href="https://www.instagram.com/muhammadahmadamin512?igsh=MThjNXM5cXdicGhyMw==" target='_blank' className='contact-left__social'>
