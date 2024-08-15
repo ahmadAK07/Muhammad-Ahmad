@@ -33,10 +33,10 @@ const Projects = () => {
       color: "slateblue"
     },
     {
-      img: "./Images/project-2.png",
-      name: "Home Service",
-      color: "rgb(250 204 21)",
-      url: "https://tailwindcss-second.vercel.app/" 
+      img: "./Images/project-5.png",
+      name: "Teaching Practice",
+      color: "#4551dd",
+      url: "https://ahmadak07.github.io/teaching-practice/" 
     }
   ];
 
