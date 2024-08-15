@@ -35,7 +35,7 @@ const Projects = () => {
     {
       img: "./Images/project-5.png",
       name: "Teaching Practice",
-      color: "#4551dd",
+      color: "white",
       url: "https://ahmadak07.github.io/teaching-practice/" 
     }
   ];
