@@ -47,7 +47,7 @@
   border-radius: 50%;
   width: 100%;
   height: 100%;
-  box-shadow: inset 0px 0px 20px slateblue;
+  box-shadow: inset 0px 0px 20px white;
   transition: all 0.5s;
   cursor: pointer;
   position: relative;
@@ -55,32 +55,37 @@
 .image-inner-container:hover {
   box-shadow: inset 0px 0px 20px white;
 }
-.image-inner-container::after, .contact-left::after{
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: red;
-  background: url("/Images/bg-contact.jpg");
-  background-position: center;
-  background-size: cover;
-  transform: rotate(2deg);
-  inset: 0;
-  left: 0;
-  top: 0;
-  clip-path: circle(0px at var(--x) var(--y));
-}
-.contact-left::after{
-  border-radius: 0%;
-  transform: rotate(0deg);
-  background-position: top;
-  z-index: 0;
-  background: url("/Images/bg-contact.jpg");
-}
-.image-outer-container:hover .image-inner-container::after, .contact-left:hover::after{
-  clip-path: circle(100px at var(--x) var(--y));
+
+
+@media screen and (min-width: 769px) {
+  .image-inner-container::after, .contact-left::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: red;
+    background: url("/Images/bg-contact.jpg");
+    background-position: center;
+    background-size: cover;
+    transform: rotate(2deg);
+    inset: 0;
+    left: 0;
+    top: 0;
+    clip-path: circle(0px at var(--x) var(--y));
+  }
+  .contact-left::after{
+    border-radius: 0%;
+    transform: rotate(0deg);
+    background-position: end;
+    background-size: cover;
+    z-index: 0;
+    background: url("/Images/bg-contact.jpg");
+  }
+  .image-outer-container:hover .image-inner-container::after, .contact-left:hover::after{
+    clip-path: circle(100px at var(--x) var(--y));
+  }
 }
 .main-image {
   height: 100%;
