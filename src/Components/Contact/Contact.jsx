@@ -1,16 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { IoLogoWhatsapp } from "react-icons/io";
 const Contact = () => {
+  const [clipPathPosition, setClipPathPosition] = useState({ x: '40%', y: '40%' });
+
+  const handleMouseMove = (e) => {
+    const outerContainer = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - outerContainer.left) / outerContainer.width) * 100;
+    const y = ((e.clientY - outerContainer.top) / outerContainer.height) * 100;
+
+    setClipPathPosition({ x: `${x}%`, y: `${y}%` });
+  };
   return (
     <div id='contact' >
        <div className="container contact-container">
        <h1 className='display-1 roboto-semibold'>Contact Us</h1>
        <div className=''>
-            <div className='contact-left'>
+            <div className='contact-left'
+            onMouseMove={handleMouseMove}
+            style={{
+              '--x': clipPathPosition.x,
+              '--y': clipPathPosition.y,
+            }}
+            >
               <h3 className='display-2 kanit-semibold contact-left__title' >Social</h3>
               <div>
                  <a href="#" className='contact-left__social'>
