@@ -4,34 +4,34 @@ const Projects = () => {
   const projectCardsRef = useRef([]);
 
   let projects = [
-    {
-      img: "./Images/project-1.png",
-      name: "Portfolio",
-      color: "slateblue"
-    },
+    // {
+    //   img: "./Images/project-1.png",
+    //   name: "Portfolio",
+    //   color: "slateblue"
+    // },
     {
       img: "./Images/project-2.png",
       name: "Home Service",
       color: "rgb(250 204 21)",
       url: "https://tailwindcss-second.vercel.app/" 
     },
-    {
-      img: "./Images/project-3.png",
-      name: "Tech Service",
-      url: "https://nice-page-three.vercel.app/",
-      color: "red"
-    },
+    // {
+    //   img: "./Images/project-3.png",
+    //   name: "Tech Service",
+    //   url: "https://nice-page-three.vercel.app/",
+    //   color: "red"
+    // },
     {
       img: "./Images/project-4.png",
       name: "bookme",
       color: "#1476d1",
       url: "https://bookme-delta.vercel.app/"
     },
-    {
-      img: "./Images/project-1.png",
-      name: "Portfolio",
-      color: "slateblue"
-    },
+    // {
+    //   img: "./Images/project-1.png",
+    //   name: "Portfolio",
+    //   color: "slateblue"
+    // },
     {
       img: "./Images/project-5.png",
       name: "Teaching Practice",
