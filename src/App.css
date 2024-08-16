@@ -82,7 +82,7 @@
     background-size: cover;
     background-repeat: repeat;
     z-index: 0;
-    background: url("Images/bg-coding.jpg");
+    background: slateblue;
   }
   .image-outer-container:hover .image-inner-container::after, .contact-left:hover::after{
     clip-path: circle(140px at var(--x) var(--y));

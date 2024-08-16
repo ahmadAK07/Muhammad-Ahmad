@@ -4,6 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   const [clipPathPosition, setClipPathPosition] = useState({ x: '40%', y: '40%' });
 
@@ -36,6 +37,9 @@ const Contact = () => {
                  </a>
                  <a href="https://www.instagram.com/muhammadahmadamin512?igsh=MThjNXM5cXdicGhyMw==" target='_blank' className='contact-left__social'>
                  <FaSquareInstagram />
+                 </a>
+                 <a href="https://www.linkedin.com/in/muhammad-ahmad-772172280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' className='contact-left__social'>
+                 <FaLinkedin />
                  </a>
 
               </div>
