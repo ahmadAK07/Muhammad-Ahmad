@@ -70,19 +70,19 @@
     background-position: top;
     background-size: cover;
     transform: rotate(2deg);
-    background-repeat: no-repeat;
     inset: 0;
     left: 0;
     top: 0;
-    /* clip-path: circle(100% at var(--x) var(--y)); */
+    clip-path: circle(0px at var(--x) var(--y));
   }
   .contact-left::after{
     border-radius: 0%;
     transform: rotate(0deg);
     background-position: center;
     background-size: cover;
+    background-repeat: repeat;
     z-index: 0;
-    background: slateblue;
+    background: url("Images/bg-coding.jpg");
   }
   .image-outer-container:hover .image-inner-container::after, .contact-left:hover::after{
     clip-path: circle(140px at var(--x) var(--y));
