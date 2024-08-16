@@ -70,15 +70,16 @@
     background-position: top;
     background-size: cover;
     transform: rotate(2deg);
+    background-repeat: no-repeat;
     inset: 0;
     left: 0;
     top: 0;
-    clip-path: circle(0px at var(--x) var(--y));
+    /* clip-path: circle(100% at var(--x) var(--y)); */
   }
   .contact-left::after{
     border-radius: 0%;
     transform: rotate(0deg);
-    background-position: end;
+    background-position: center;
     background-size: cover;
     z-index: 0;
     background: slateblue;
@@ -205,7 +206,8 @@
 }
 .contact-left{
   background: slateblue;
-  width: 50%;
+  height: 400px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,11 +235,11 @@
   gap: 10px;
 }
 .contact-left__social{
-  font-size: 30px;
+  font-size: 40px;
   color: slateblue;
   display: block;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
